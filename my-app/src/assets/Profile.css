@@ -1,0 +1,98 @@
+/* Profile.css */
+
+.profile-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+.profile-card{
+  width: 400px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-top{
+  text-align: center;
+}
+
+.profile-icon{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin: auto;
+}
+
+.profile-top h2{
+  margin-top: 15px;
+}
+
+.section{
+  margin-top: 25px;
+}
+
+.section h3{
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.section p{
+  margin: 10px 0;
+}
+
+.section span{
+  font-weight: bold;
+}
+
+.input-box{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box label{
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input-box select,
+.input-box input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.btns{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn,
+.save-btn{
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.edit-btn{
+  background: #ff9800;
+}
+
+.save-btn{
+  background: #2196f3;
+}
