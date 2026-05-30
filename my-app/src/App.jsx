@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import Header from "./components/Header";
+import Header from "./components/header";
 import About from "./assets/pages/About";
 import Doctors from "./assets/pages/Doctors";
 import Home from "./assets/pages/Home";
