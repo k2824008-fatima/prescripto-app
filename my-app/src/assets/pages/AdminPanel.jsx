@@ -159,7 +159,7 @@ const AdminPanel = () => {
       </div>
 
       {/* MAIN CONTENT */}
-      <div style={{ flex: 1, padding: isMobile ? '70px 14px 30px' : '30px', overflowY: 'auto', minWidth: 0 }}>
+      <div style={{ flex: 1, padding: isMobile ? '70px 14px 30px' : '30px', overflowY: 'auto', minWidth: '750px' }}>
 
         {/* DASHBOARD */}
         {activePage === 'dashboard' && (
