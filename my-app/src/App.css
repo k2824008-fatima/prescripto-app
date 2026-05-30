@@ -362,9 +362,68 @@ html{
     display: block !important;
   }
   .nav-links {
-    display: none !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
   .header-btn {
     display: none !important;
+  }
+}
+@media (max-width: 600px) {
+  .main {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  .home {
+    flex-direction: column;
+    margin-inline: 10px;
+    padding-inline: 20px;
+  }
+  .image img {
+    width: 100% !important;
+  }
+  .image {
+    margin-top: 20px;
+  }
+  .simp p {
+    font-size: 16px;
+    padding-left: 100px;
+  }
+  .speciality p {
+    padding-inline: 20px;
+    font-size: 16px;
+  }
+  .find p {
+    padding-inline: 20px;
+  }
+  .doc {
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 10px;
+    width: 100%;
+  }
+  .doctor-card {
+    width: 100%;
+  }
+  .trust {
+    flex-direction: column;
+    margin-inline: 10px;
+  }
+  .snap img {
+    width: 100% !important;
+  }
+  .lorem {
+    flex-direction: column;
+    gap: 30px;
+    margin-inline: 20px;
+  }
+  .copy {
+    width: 100%;
+  }
+  .create {
+    margin-inline: 20px;
+    margin-top: 30px;
   }
 }
